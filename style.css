@@ -42,6 +42,7 @@ img{
     margin: 15px 0px 10px;
     padding-top: 30px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .login-form .box .form-field{
@@ -65,24 +66,22 @@ img{
     border-radius: 5px;
 }
 
+.login-form .box .form-field .form-control::placeholder{
+   font-weight: bold;
+   color: grey;
+}
+
 .login-form .box .form-field .input-box .save-id{
    position: absolute;
-   /* right: 40px;
-   bottom:40px;
-   height: 100%;
-   width: 40px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   z-index: 1;
-   font-size: 12px; */
-
    float: right;
     position: relative;
     bottom: 45px;
     right: 10px;
     z-index: 2;
     overflow: hidden;
+    font-size: 14px;
+    color: grey;
+    font-weight: bold;
     
 }
 
@@ -102,9 +101,10 @@ img{
 .button-box a{
     color: #00c263;
     padding-top: 10px;
+    font-weight: bold;
 }
 
-.button-box button{
+.button-box .login-btn{
     padding: 10px 20px;
     color: white;
     background-color: #00c263;
@@ -113,3 +113,34 @@ img{
     border: 1px solid #00c263;
 }
 
+.bangla-english{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 50px 10px 20px;
+}
+
+.default-lang{
+    color: #00c263;
+    padding-right: 15px;
+}
+.bar{
+    color: #828282 !important;
+}
+.grey-col{
+    color: #828282 !important;
+    padding-left: 15px;
+}
+.reg-btn{
+   display: flex;
+   justify-content: center;
+   padding-top: 20px;
+}
+
+.reg-btn a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #00c263;
+}
