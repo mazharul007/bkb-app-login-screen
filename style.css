@@ -58,28 +58,41 @@ img{
 .login-form .box .form-field .form-control{
     height: 40px;
     width: 100%;
-    color: green;
+    color: black;
     border:1px solid #00c263;
     margin-bottom: 15px;
     padding: 20px 0px 20px 10px;
     border-radius: 5px;
 }
 
-.login-form .box .form-field .input-box span{
+.login-form .box .form-field .input-box .save-id{
    position: absolute;
-   right: 0px;
-   top:0px;
+   /* right: 40px;
+   bottom:40px;
    height: 100%;
    width: 40px;
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    z-index: 1;
+   font-size: 12px; */
+
+   float: right;
+    position: relative;
+    bottom: 45px;
+    right: 10px;
+    z-index: 2;
+    overflow: hidden;
+    
 }
 
-.login-form .box .form-field .input-box span{
-    width: 22px;
- }
+.login-form .box .form-field .input-box i {
+   float: right;
+   position: relative;
+   bottom: 45px;
+   right: 10px;
+   z-index: 2;
+}
 
 .button-box{
     display: flex;
